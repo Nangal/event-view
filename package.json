@@ -5,10 +5,10 @@
   "angular-cli": {},
   "scripts": {
     "start": "npm run tsc && concurrently \"npm run tsc:w\" \"lite-server\" ",
-    "lint": "tslint ./app/**/*.ts -t verbose",
+    "lint": "tslint ./src/client/app/**/*.ts -t verbose",
     "lite": "lite-server",
-    "tsc": "tsc -p ./src",
-    "tsc:w": "tsc -w -p ./src"
+    "tsc": "tsc -p ./src/client",
+    "tsc:w": "tsc -w -p ./src/client"
   },
   "private": true,
   "dependencies": {
@@ -32,6 +32,7 @@
     "reflect-metadata": "^0.1.8",
     "rxjs": "5.0.0-beta.12",
     "systemjs": "0.19.40",
+    "tslint": "^4.0.1",
     "zone.js": "^0.6.26"
   },
   "devDependencies": {

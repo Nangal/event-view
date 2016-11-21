@@ -26,7 +26,7 @@ export class AuthGuard implements CanActivate, CanActivateChild, CanLoad {
       return true;
     }
 
-    var message = 'Unauthorized access denied';
+    // var message = 'Unauthorized access denied';
     let url = `/${route.path}`;
     this.router.navigate(['/login'], { queryParams: { redirectTo: url } });
     this.toastService.activate(this.deniedMessage);
