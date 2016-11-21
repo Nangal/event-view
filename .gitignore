@@ -35,6 +35,7 @@ src/**/*.js
 src/app/**/*.js
 !src/app/assets/*.js
 src/api/**/*.js
+!src/server/**/*
 
 aot
 
