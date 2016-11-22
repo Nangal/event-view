@@ -22,8 +22,8 @@ import { ToastModule } from './toast/toast.module';
     RouterModule, // because we use <router-outlet> and routerLink
     ModalModule, SpinnerModule, ToastModule
   ],
-  exports: [ModalModule, SpinnerModule, ToastModule, NavComponent],
-  declarations: [NavComponent],
+  exports: [ModalModule, SpinnerModule, ToastModule, NavComponent],
+  declarations: [NavComponent],
   providers: [EntityService, ExceptionService, MessageService ]
 })
 export class CoreModule {
