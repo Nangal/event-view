@@ -24,7 +24,8 @@ export class SessionListComponent implements OnDestroy, OnInit {
     private sessionService: SessionService) { }
 
   filterChanged(searchText: string) {
-    this.filteredSessions = this.filterService.filter(searchText, ['id', 'name', 'level'], this.sessions);
+    let props = ['id', 'name', 'level'];
+    this.filteredSessions = this.filterService.filter(searchText, props, this.sessions);
   }
 
   getSessions() {

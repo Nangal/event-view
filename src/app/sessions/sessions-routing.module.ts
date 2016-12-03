@@ -35,4 +35,4 @@ const routes: Routes = [
 })
 export class SessionsRoutingModule { }
 
-export const routedComponents = [SessionsComponent, SessionListComponent, SessionComponent]
+export const routedComponents = [SessionsComponent, SessionListComponent, SessionComponent];
