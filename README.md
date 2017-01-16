@@ -4,7 +4,7 @@ Angular app with just a sprinkle of most features
 
 ## Get the Code
 ```
-git clone https://github.com/johnpapa/event-view.git a2-go
+git clone https://github.com/johnpapa/event-view.git event-view
 cd event-view
 npm i
 ```
